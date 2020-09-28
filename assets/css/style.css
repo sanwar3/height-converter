@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Baskervville&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200&family=Oxygen:wght@300&display=swap');
+
+
+/* font-family: 'Catamaran', sans-serif;
+/* font-family: 'Prata', serif; */
+
+body {
+  background-color: #d3af1a;
+  font-family: 'Catamaran', sans-serif;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.title {
+  font-family: 'Prata', serif;
+  color: black;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+section {
+  margin-top: 15px;
+  place-self: center;
+}
+
+input {
+  background-color: #e9dead;
+  border-color: black;
+  text-align: right;
+  color: black;
+  border-style: solid;
+  font-size: 20px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.button {
+  background-color: #e9dead;
+  border-color: black;
+  border-style: solid;
+  font-family: 'Catamaran', sans-serif;
+  color: black;
+  place-self: center;
+  width: 290px;
+  height: 30px;
+  font-size: 20px;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+}
+
+  .button:active {
+  background-color: #d3af1a;
+  box-shadow: 0 5px #d3af1a;
+  color: white;
+  transform: translateY(4px);
+}
+
